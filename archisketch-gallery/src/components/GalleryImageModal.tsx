@@ -14,6 +14,8 @@ type GalleryImageModalProps = {
 }
 
 const GalleryImageModal = (props: GalleryImageModalProps) => {
+
+    console.log(props);
     return (
         <>
             {
