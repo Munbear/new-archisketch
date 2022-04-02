@@ -36,6 +36,8 @@ export const BackBtn = styled.button`
 
 export const DownloadBtn = styled.div`
   right: 50px;
+  display: flex;
+  justify-content: space-around;
   height: 32px;
   padding: 5px;
   border-radius: 4px;
@@ -44,8 +46,9 @@ export const DownloadBtn = styled.div`
   cursor: pointer;
   border: solid 1px lightgray;
   text-align: center;
-  
-  span{
-    text-align: center;
-  }
+`;
+
+export const HeaderGallery = styled.div`
+  font-size: 20px;
+    font-weight: bold;
 `;

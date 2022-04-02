@@ -29,4 +29,5 @@ export const Image = styled.div`
   background-position: center;
   border-radius: 4px;
   cursor: pointer;
+  transition: box-shadow ease 0s;
 `;

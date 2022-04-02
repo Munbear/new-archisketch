@@ -14,14 +14,12 @@ type GalleryImageModalProps = {
 }
 
 const GalleryImageModal = (props: GalleryImageModalProps) => {
-
-    console.log(props);
     return (
         <>
             {
                 props.show ?
                     <ModalWrapper>
-                        <Header onClickBackButton={() => props.closeModal()} />
+                        <Header onClickBackButton={() => props.closeModal()} galleryImage={props.galleryImage} />
                         <ModalItem>
                             <LeftBtn onClick={() => props.prevModal()}>
                                 <svg viewBox='0 0 24 24' width='24' height='24'>
